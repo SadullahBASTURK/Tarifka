@@ -1,0 +1,3 @@
+import {API_URL, API_CATEGORIES, API_MEALS, API_DETAIL} from '@env';
+
+export default {API_URL, API_CATEGORIES, API_MEALS, API_DETAIL};
