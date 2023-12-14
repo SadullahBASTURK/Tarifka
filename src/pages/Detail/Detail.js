@@ -13,7 +13,7 @@ const Detail = ({route}) => {
 
     const {idMeal} = route.params;
     console.log("id meal: ", idMeal);
-    const { error, loading, data } = useFetch(`${config.API_DETAIL}${"idMeal"}`);
+    const { error, loading, data } = useFetch(`${config.API_DETAIL}${idMeal}`);
 
     const renderDetail = ({item}) => {
         return(
